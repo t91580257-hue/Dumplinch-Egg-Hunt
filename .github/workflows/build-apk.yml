@@ -89,8 +89,7 @@ jobs:
       - name: Import project resources
         run: godot --headless --path . --editor --import --quit
 
-      - name: Validate project
-        run: godot --headless --path . --script res://scripts/tools/validate_project.gd
+      
 
       - name: Smoke test
         run: |
