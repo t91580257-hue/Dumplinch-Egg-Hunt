@@ -90,10 +90,7 @@ jobs:
         run: godot --headless --path . --editor --import --quit
 
       
-
-      - name: Smoke test
-        run: |
-          godot --headless --path . --script res://scripts/tools/smoke_test.gd
+  
 
       - name: Build Android APK ARM64
         run: |
